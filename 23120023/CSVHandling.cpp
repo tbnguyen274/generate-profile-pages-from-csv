@@ -128,7 +128,7 @@ void extractStudentInfoFromLine(UChar* line, SinhVien*& students, int& count) {
     }
 
     if (totalFields < 7) {
-		printf("The number of fields is not enough: %d\n", totalFields);
+	printf("The number of fields is not enough: %d\n", totalFields);
         printf("From line number: %d\n", count + 1);
 		return;
 	}
